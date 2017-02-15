@@ -1,18 +1,12 @@
 "use strict";
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+let SimpleDate = function () {
+  let _years = new WeakMap();
+  let _months = new WeakMap();
+  let _days = new WeakMap();
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var SimpleDate = function () {
-  var _years = new WeakMap();
-  var _months = new WeakMap();
-  var _days = new WeakMap();
-
-  var SimpleDate = function () {
-    function SimpleDate(year, month, day) {
-      _classCallCheck(this, SimpleDate);
-
+  class SimpleDate {
+    constructor(year, month, day) {
       // Check that (year, month, day) is a valid date
       // ...
 
@@ -22,24 +16,18 @@ var SimpleDate = function () {
       _days.set(this, day);
     }
 
-    _createClass(SimpleDate, [{
-      key: "addDays",
-      value: function addDays(nDays) {
-        // Increase "this" date by n days
-        // ...
-      }
-    }, {
-      key: "getDay",
-      value: function getDay() {
-        return _days.get(this);
-      }
-    }]);
+    addDays(nDays) {
+      // Increase "this" date by n days
+      // ...
+    }
 
-    return SimpleDate;
-  }();
+    getDay() {
+      return _days.get(this);
+    }
+  }
 
   return SimpleDate;
 }();
 
-var x = new SimpleDate(2017, 2, 3);
+let x = new SimpleDate(2017, 2, 3);
 console.log(x.getDay());

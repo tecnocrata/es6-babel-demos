@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.square = square;
 exports.diag = diag;
-var sqrt = exports.sqrt = Math.sqrt;
+const sqrt = exports.sqrt = Math.sqrt;
 function square(x) {
     return x * x;
 }
