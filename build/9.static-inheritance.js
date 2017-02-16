@@ -1,5 +1,3 @@
-'use strict';
-
 /*// ES5
 function B() {}
 //Static method simulated in ES5

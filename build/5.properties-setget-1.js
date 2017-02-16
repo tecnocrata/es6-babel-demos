@@ -1,5 +1,3 @@
-"use strict";
-
 class Rectangle {
   set width(w) {
     this._width = w;

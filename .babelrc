@@ -1,6 +1,6 @@
 {
-  "presets": ["node6"]
+  //"presets": ["node6"]
   //"presets": ["es2015", "stage-3"]
-  //"presets": ["es2016"]
+  "presets": ["es2016"]
   //"presets": ["es2017"]
 }

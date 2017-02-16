@@ -1,5 +1,3 @@
-'use strict';
-
 class Employee {
   constructor(firstName, familyName) {
     this._firstName = firstName;

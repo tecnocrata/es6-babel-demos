@@ -1,5 +1,3 @@
-"use strict";
-
 // Simple string substitution
 var name = "Enrique";
 console.log(`Yo, ${name}!`);

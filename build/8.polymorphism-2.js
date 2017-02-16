@@ -1,5 +1,3 @@
-'use strict';
-
 // This will be our common superclass
 class Cache {
   get(key, defaultValue) {
