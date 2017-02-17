@@ -42,7 +42,7 @@ class Animal {
 
 class Dog extends Animal {
   constructor() {
-    super(); //HUMM weird... I need call the super constructor before ALWAYS!
+    super(); //HUMM weird... I need call the super constructor before, ALWAYS!
     this.skipPreview =100;
   }
 
