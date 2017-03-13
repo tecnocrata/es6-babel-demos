@@ -1,9 +1,12 @@
+"use strict";
+
 // Simple string substitution
 var name = "Enrique";
 console.log(`Yo, ${name}!`);
 
 var a = 10;
 var b = 10;
+//PLEASE OBSERVE THE QUOTES
 console.log(`JavaScript first appeared ${a + b} years ago. Crazy!`);
 //=> JavaScript first appeared 20 years ago. Crazy!
 

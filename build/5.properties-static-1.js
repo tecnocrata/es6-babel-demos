@@ -1,3 +1,5 @@
+"use strict";
+
 class Rectangle {
   constructor() {
     this.width = 4;

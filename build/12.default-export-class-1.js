@@ -1,4 +1,9 @@
-export default class {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = class {
     constructor(x) {
         this.x = x;
     }
@@ -7,3 +12,4 @@ export default class {
         console.log(this.x);
     }
 };
+;

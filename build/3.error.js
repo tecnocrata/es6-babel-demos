@@ -1,3 +1,5 @@
+"use strict";
+
 function* errorFulGenerator() {
   yield "yo";
   throw new Error("source maps are awesome");

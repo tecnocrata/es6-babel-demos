@@ -1,3 +1,5 @@
+"use strict";
+
 let SimpleDate = function () {
   let _years = new WeakMap();
   let _months = new WeakMap();
